@@ -41,6 +41,29 @@ c::set('cache.rest.flush.roots', [
 ]);
 ```
 
+**Results**
+
+The results will be presented in JSON like this:
+
+```json
+{
+    "roots": [
+        {
+            "count": 23,
+            "root": "path/to/cache",
+            "success": true
+        },
+        {
+            "count": 12,
+            "root": "path/to/thumbs",
+            "success": false
+        }
+    ],
+    "success": false,
+    "flushed_files": 21
+}
+```
+
 ## Additional options
 
 ### lock
