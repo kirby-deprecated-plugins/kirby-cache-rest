@@ -19,17 +19,19 @@ Just visit an url to make a cache operation, for example `/flush`. You will get 
 
 **Url:** `/flush`
 
-This operation flushes both `cache` and `thumbs` by default. You can change it to flush any folder.
+With this operation you will flush the cache, thumbs or any data of your choice.
 
 **Path**
 
-To flush the cache you by default need to visit `/flush`. It can be changed to a path that you prefer.
+To flush the cache you need to visit `/flush`. It can be changed to a path that you prefer.
 
 ```php
 c::set('cache.rest.flush.path', 'flush');
 ```
 
 **Roots**
+
+This operation flushes both `cache` and `thumbs` by default. You can change it to flush any folder.
 
 ```php
 global $kirby;

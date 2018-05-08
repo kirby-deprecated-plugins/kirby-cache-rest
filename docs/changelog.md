@@ -2,4 +2,5 @@
 
 ### 0.1
 
-- Initial release
+- The first operation is introduced is `flush`.
+- Initial release.
